@@ -11,7 +11,7 @@ DESCRIPTION:
     Ignore capitalization when determining if a character is a duplicate.
 */
 public class DuplicateEncoder {
-    static String encode(String word){
+    public static String encode(String word){
         word=word.toLowerCase();
         Character c;
         Map<Character, Integer> counts = new HashMap<>();
